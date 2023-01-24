@@ -1,0 +1,25 @@
+/* play around with different properties from the link */ 
+
+/* https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-background  */
+
+/* also play flexbox froggy game! */ 
+
+/* https://flexboxfroggy.com/ */ 
+
+/* or try the flexbox ducky game if you want! */ 
+
+/* https://courses.cs.washington.edu/courses/cse154/flexboxducky/ */ 
+
+.image-container {
+    display: flex; 
+    justify-content: center; 
+    background-color: aquamarine; 
+}
+
+/* aquamarine shows behind the imgs w/o margin and padding on imgs; imgs are too large to see it */ 
+
+img {
+    margin: 20px; 
+    border: 15px solid blueviolet; 
+    padding: 20px; 
+}
